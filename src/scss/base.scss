@@ -1,0 +1,42 @@
+@import "~normalize.css/normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+@import './variables.scss';
+
+@import './hero.scss';
+
+@import './header.scss';
+
+@import './mission.scss';
+
+@import './programs.scss';
+
+@import './plan.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: $c-white;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.intro {
+    background-color: $c-dark;
+    background-image: url(../images/m-hero.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    min-height: 790px;
+  }
+
+.green {
+    color: $c-primary;
+}

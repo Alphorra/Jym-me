@@ -1,0 +1,27 @@
+
+.programs {
+    &__wrapper {
+        padding: 100px 0;
+    }
+
+    &__title {
+        position: relative;
+        font-size: $fs-main;
+        line-height: 50px;
+        font-weight: 800;
+        text-align: center;
+        margin: 0 0 115px;
+
+        &::before {
+            position: absolute;
+            content: url(../images/t-calendar.svg);
+            bottom: -85%;
+            left: 28%;
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-around;
+    }
+}

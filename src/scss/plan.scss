@@ -1,0 +1,143 @@
+
+.plan {
+    &__btn {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 1px;
+        border: solid 1px $c-dark;
+        padding: 14px 40px;
+        max-width: 159px;
+        text-decoration: none;
+        color: $c-dark;
+    }
+
+    &__wrapper {
+        background: rgba(19, 19, 22, 0.05);
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        justify-content: center;
+        align-items: center;
+        max-width: 380px;
+        width: 100%;
+        padding: 42px 60px;
+
+        &--black {
+            background-color: $c-dark;
+            transform: scale(1.08);
+            
+            .plan__name {
+                color: $c-dark;
+                background-color: $c-white;
+                border-radius: 1px;
+                border: solid 1s;
+            }
+        
+            .plan__price {
+                color: $c-white;
+            }
+        
+            .plan__item {
+                color: #DEDEE3;
+
+                &::before {
+                    position: absolute;
+                    content: url(../images/p-pin-pre.svg);
+                }
+            }
+        
+            .plan__btn {
+                color: $c-dark;
+                background: $c-white;
+            }
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: $fs-main;
+        line-height: 50px;
+        font-weight: 800;
+        position: relative;
+        margin: 0 0 115px;
+        
+        &::before {
+            position: absolute;
+            content: url(../images/p-badge.svg);
+            top: -62%;
+            right: 57%;
+        }
+    }
+
+
+    &__info {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__name {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        border-radius: 1px;
+        background-color: black;
+        color: $c-white;
+        max-width: 65px;
+        padding: 4px 14px;
+        margin: 0 0 36px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0 0 16px;
+        color: $c-dark;
+        position: relative;
+    
+        &::before {
+            position: absolute;
+            content: url(../images/p-pin.svg);
+            left: -26px;
+            top: 4px;
+        }
+
+        &:last-of-type {
+            margin: 0 0 32px;
+        }
+    }
+
+    &__price {
+        position: relative;
+        font-size: 30px;
+        line-height: 24px;
+        text-align: center;
+        font-weight: 800;
+        color: $c-dark;
+        margin: 0 0 62px;
+        display: flex;
+        flex-direction: column;
+
+        &::after {
+            content: '/month';
+            position: absolute;
+            bottom: -27px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+    }
+
+    &__premium {
+        background-color: $c-dark;  
+    }
+}

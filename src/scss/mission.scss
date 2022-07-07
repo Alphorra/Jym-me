@@ -1,0 +1,47 @@
+
+.mission {
+    &__info {
+        max-width: 768px;
+        margin: auto;
+        padding-top: 175px ;
+    }
+
+    &__title { 
+        position: relative;
+        font-size: $fs-main;
+        line-height: 50px;
+        color: $c-dark;
+        font-weight: 800;
+        margin: 0 0 67px;
+        padding-left: 60px;
+
+        &::before {
+            position: absolute;
+            content: url(../images/main-logo.svg);
+            top: -43%;
+            left: -1%;
+        }
+    }
+
+    &__desc {
+        font-size: 20px;
+        line-height: 32px;
+        color: #595962;
+        margin: 0 0 49px;
+    }
+
+    &__btn {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 800;
+        position: relative;
+        color: $c-dark;
+
+        &::after {
+            position: absolute;
+            content: url(../images/m-vector.svg);
+            right: -45%
+        }
+    }
+}

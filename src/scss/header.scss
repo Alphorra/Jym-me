@@ -1,0 +1,44 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px;
+  }
+
+  &__item {
+    margin: 0 32px 0 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: $c-white;
+    text-decoration: none;
+
+    &:last-child {
+      margin: 0;
+    } 
+  }
+
+  &__btn-log {
+    text-decoration: none;
+    margin-right: 24px;
+    font-size: 12px;
+    line-height: 18px;
+    color: $c-white;
+    font-weight: 700;
+  }
+
+  &__btn-sign {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 30px;
+    background-color: $c-primary;
+    color: $c-white;
+    font-weight: 700;
+
+    &:hover {
+      background-color: darken($color: $c-primary, $amount: 10);
+    }
+  }
+}
