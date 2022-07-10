@@ -1,0 +1,26 @@
+.join {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  &__btn {
+    background-color: #fff;
+    border-radius: 1px;
+    color: #131316;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    max-width: 160px;
+    padding: 14px 40px;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

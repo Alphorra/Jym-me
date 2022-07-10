@@ -1,0 +1,45 @@
+.faq {
+
+  &__wrapper {
+    padding-bottom:60px;
+  }
+
+  &__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 0 72px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    flex-direction: column;
+    padding-bottom: 16px;
+
+    &-name {
+      border: 1px solid rgba(19, 19, 22, 0.1);
+      border-radius: 2px;
+      margin: 0;
+      padding: 20px 30px 20px 30px;
+      display: flex;
+      justify-content: space-between;
+
+      &::after {
+        content: url('../images/arrow-p.png');
+        cursor: pointer;
+
+      }
+    }
+
+    &-text {
+        display: none;
+        padding: 0 30px;
+    }
+  }
+}

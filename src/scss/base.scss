@@ -1,6 +1,6 @@
 @import "~normalize.css/normalize.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap');
 
 @import './variables.scss';
 
@@ -13,6 +13,12 @@
 @import './programs.scss';
 
 @import './plan.scss';
+
+@import './community.scss';
+
+@import './faq.scss';
+
+@import './join-now.scss';
 
 * {
     box-sizing: border-box;
@@ -39,4 +45,12 @@ body {
 
 .green {
     color: $c-primary;
+}
+
+.container__bot {
+    background-color: $c-dark;
+    background-image: url(../images/join-g.png);
+    background-repeat:no-repeat;
+    min-height:620px;
+    background-position-x: 300px;
 }

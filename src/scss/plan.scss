@@ -26,6 +26,7 @@
         width: 100%;
         padding: 42px 60px;
 
+
         &--black {
             background-color: $c-dark;
             transform: scale(1.08);
@@ -77,6 +78,7 @@
     &__info {
         display: flex;
         justify-content: center;
+        padding-bottom: 100px;
     }
 
     &__name {
