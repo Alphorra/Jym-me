@@ -20,6 +20,8 @@
 
 @import './join-now.scss';
 
+@import './footer.scss';
+
 * {
     box-sizing: border-box;
 }
@@ -45,6 +47,7 @@ body {
     background-repeat: no-repeat;
     background-position: 80%;
     min-height: 790px;
+    margin-bottom: 175px;
   }
 
 .green {

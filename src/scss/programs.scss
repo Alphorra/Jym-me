@@ -1,8 +1,5 @@
 
 .programs {
-    &__wrapper {
-        padding: 100px 0;
-    }
 
     &__title {
         position: relative;
@@ -23,5 +20,6 @@
     &__items {
         display: flex;
         justify-content: space-around;
+        margin-bottom: 325px;
     }
 }

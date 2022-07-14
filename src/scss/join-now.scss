@@ -9,7 +9,7 @@
   }
 
   &__btn {
-    background-color: #fff;
+    background-color: $c-white;
     border-radius: 1px;
     color: #131316;
     font-size: 14px;
@@ -21,10 +21,6 @@
     width: 100%;
   }
 
-  &__footer {
-    display: flex;
-    justify-content: space-between;
-  }
 
   &__img {
     position: relative;
@@ -34,7 +30,7 @@
 
   &__title {
     font-size: 60px;
-    color: #FFF;
+    color: $c-white;
     line-height: 62px;
     max-width: 460px;
     margin: 0 0 24px;
@@ -43,7 +39,7 @@
   &__text {
     font-size: 20px;
     line-height: 32px;
-    color: #FFF;
+    color: $c-white;
     max-width: 460px;
     margin: 0 0 32px;
     position: absolute;
@@ -54,16 +50,5 @@
   &__text-one {
     margin: 0 0 32px;
   }
-
-  &__footer {
-    padding: 120px 0 20px;
-  }
-
 }
 
-.footer__reserved {
-  font-size: 12px;
-  line-height: 18px;
-  color: #9797A1;
-
-}
