@@ -1,8 +1,13 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 120px 50px 20px;
+    padding: 120px 54px 20px;
     background-color: #131316;
+
+    @media (max-width: 428px) {
+      padding: 53px 20px;
+      margin-top: -1px;
+    }
 
     &__reserved {
       font-size: 12px;

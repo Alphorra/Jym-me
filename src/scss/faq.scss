@@ -1,9 +1,23 @@
 .faq {
+    margin-bottom: 150px;
 
   &__wrapper {
-    padding-bottom:60px;
     background-image: url("../images/faq-question.png");
     background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+
+    @media (max-width: 1280px) {
+      padding: 105px;
+      background-size: 72%;
+      background-position-y: 10%;
+    }
+    
+    @media (max-width: 428px) {
+      padding: 0;
+      background: none;
+    }
+
   }
 
   &__title {
@@ -13,6 +27,25 @@
     line-height: 50px;
     text-align: center;
     margin: 0 0 72px;
+
+    @media (max-width: 428px) {
+      text-align: left;
+      padding-left: 40px;
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: url(../images/question-icon-iphone.png);
+        left: 0%;
+        top: -28%;
+      }
+    }
+
+  }
+
+  &__items {
+    max-width: 768px;
+    margin: auto;
   }
 
   &__item {
@@ -25,9 +58,15 @@
     margin-bottom: 16px;
     border: 1px solid rgba(19, 19, 22, 0.1);
     border-radius: 2px;
+    background: #FFF;
 
     &:last-child {
       margin-bottom: 384px;
+
+      @media (max-width: 1280px) {
+        margin-bottom: 130px;
+      }
+
     }
 
     &-name {
@@ -39,6 +78,8 @@
       &::after {
         content: url('../images/arrow-p.png');
         cursor: pointer;
+        width: 22px;
+        height: 22px;
 
       }
     }

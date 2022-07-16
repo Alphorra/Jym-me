@@ -9,11 +9,26 @@
         text-align: center;
         margin: 0 0 115px;
 
+        @media (max-width: 767px) {
+            margin: 0 0 70px;
+        }
+
         &::before {
             position: absolute;
             content: url(../images/t-calendar.svg);
             bottom: -85%;
             left: 28%;
+            
+            @media (max-width: 767px) {
+                bottom: 15%;
+                left: 2%;
+            }
+        }
+        }
+    &__slide {
+        @media (max-width: 767px) {
+            width: 60%;
+            height: 60%;
         }
     }
 
@@ -21,5 +36,10 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 325px;
+        align-items: center;
+        
+        @media (max-width: 767px) {
+            margin-bottom: 190px;
+        }
     }
 }
