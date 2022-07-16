@@ -24,20 +24,29 @@
                 left: 2%;
             }
         }
+    }
+    .swiper {
+        width: 100%;
+        overflow: unset;
+
+        &-slide {
+            width: 17%;
         }
-    &__slide {
-        @media (max-width: 767px) {
-            width: 60%;
-            height: 60%;
+        &-wrapper {
+            align-items: center;
         }
     }
 
+    //&__slide {
+    //    @media (max-width: 767px) {
+    //        width: 60%;
+    //        height: 60%;
+    //    }
+    //}
+
     &__items {
-        display: flex;
-        justify-content: space-around;
         margin-bottom: 325px;
-        align-items: center;
-        
+
         @media (max-width: 767px) {
             margin-bottom: 190px;
         }

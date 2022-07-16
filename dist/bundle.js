@@ -58,7 +58,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
   \**************************/
 /***/ (function() {
 
-eval("\n\n//# sourceURL=webpack://thehaduproject/./src/js/script.js?");
+eval("const swiper = new Swiper('.swiper', {\r\n    // Optional parameters\r\n    direction: 'horizontal',\r\n    loop: true,\r\n    slidesPerView: 'auto',\r\n    spaceBetween: 32,\r\n\r\n\r\n    // Navigation arrows\r\n    navigation: {\r\n        nextEl: '.swiper-button-next',\r\n        prevEl: '.swiper-button-prev',\r\n    },\r\n\r\n});\n\n//# sourceURL=webpack://thehaduproject/./src/js/script.js?");
 
 /***/ })
 

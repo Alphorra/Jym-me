@@ -50,7 +50,6 @@
     font-size: 60px;
     color: $c-white;
     line-height: 62px;
-    max-width: 460px;
     margin: 0 0 24px;
 
     @media (max-width: 428px) {
@@ -62,19 +61,16 @@
 
   }
 
-  &__text {
+  &__info {
     font-size: 20px;
     line-height: 32px;
     color: $c-white;
     max-width: 460px;
     margin: 0 0 32px;
     position: absolute;
-    left: 53%;
+    max-width: 460px;
+    right: 3%;
     top: 10%;
-
-    @media (max-width: 1280px) {
-      padding-right: 20px;
-    }
 
     @media (max-width: 428px) {
       font-size: 16px;
@@ -89,7 +85,7 @@
 
   }
 
-  &__text-one {
+  &__text {
     margin: 0 0 32px;
   }
 }

@@ -6,10 +6,10 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px;
+    background-size: contain;
 
     @media (max-width: 1280px) {
       padding: 105px;
-      background-size: 72%;
       background-position-y: 10%;
     }
     
