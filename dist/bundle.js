@@ -58,7 +58,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
   \**************************/
 /***/ (function() {
 
-eval("const swiper = new Swiper('.swiper', {\r\n    // Optional parameters\r\n    direction: 'horizontal',\r\n    loop: true,\r\n    slidesPerView: 'auto',\r\n    spaceBetween: 32,\r\n\r\n\r\n    // Navigation arrows\r\n    navigation: {\r\n        nextEl: '.swiper-button-next',\r\n        prevEl: '.swiper-button-prev',\r\n    },\r\n\r\n});\n\n//# sourceURL=webpack://thehaduproject/./src/js/script.js?");
+eval("const swiper = new Swiper('.swiper', {\r\n    // Optional parameters\r\n    direction: 'horizontal',\r\n    loop: true,\r\n    slidesPerView: 'auto',\r\n    spaceBetween: 32,\r\n\r\n\r\n\r\n    // Navigation arrows\r\n    navigation: {\r\n        nextEl: '.swiper-button-next',\r\n        prevEl: '.swiper-button-prev',\r\n    },\r\n\r\n    // breakpoints: {\r\n    //     // when window width is >= 320px\r\n    //     320: {\r\n    //         slidesPerView: 2,\r\n    //         spaceBetween: 20\r\n    //     },\r\n    //     // when window width is >= 480px\r\n    //     480: {\r\n    //         slidesPerView: 3,\r\n    //         spaceBetween: 30\r\n    //     },\r\n    //     // when window width is >= 640px\r\n    //     640: {\r\n    //         slidesPerView: 4,\r\n    //         spaceBetween: 40\r\n    //     }\r\n    // }\r\n\r\n});\n\n//# sourceURL=webpack://thehaduproject/./src/js/script.js?");
 
 /***/ })
 

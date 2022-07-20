@@ -15,9 +15,6 @@
 
   &__title {
     padding:50px 0 0 0;
-    font-weight: 800;
-    line-height: 50px;
-    font-size: 50px;
     position: relative;
     margin: 0;
 
@@ -32,11 +29,7 @@
 
   }
 
-  &__title::before {
-    content: url(../images/com-icon.png);
-    position: absolute;
-    left: -70px;
-    bottom: 70%;
+  &__title {
 
     @media (max-width: 1280px) {
         bottom: -80%;
@@ -55,7 +48,6 @@
 
   &__opinion-wrapper {
     margin: 0 32px 0 0;
-    position: relative;
 
     &:last-child {
       margin: 0;
@@ -97,5 +89,23 @@
   }
 }
 
+.swiper-button-prev {
+  right: 140px !important;
+  left: auto !important;
+  top: auto !important;
+  bottom: -100px !important;
+    &:after {
+    content: url("../images/btn-left.svg") !important;
+  }
+}
 
 
+.swiper-button-next {
+  top: auto !important;
+  bottom: -100px !important;
+
+    &:after {
+    content: url("../images/btn-right.svg") !important;
+
+  }
+}

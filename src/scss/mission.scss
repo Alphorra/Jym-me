@@ -15,21 +15,10 @@
 
     }
 
-    &__title { 
-        position: relative;
-        font-size: $fs-main;
-        line-height: 50px;
+    &__title {
         color: $c-dark;
-        font-weight: 800;
         margin: 0 0 67px;
         padding-left: 60px;
-
-        &::before {
-            position: absolute;
-            content: url(../images/main-logo.svg);
-            top: -43%;
-            left: -1%;
-        }
     }
 
     &__desc {

@@ -93,16 +93,8 @@
     }
 
     &__title {
-        text-align: center;
-        font-size: $fs-main;
-        line-height: 50px;
-        font-weight: 800;
         position: relative;
         margin: 0 0 115px;
-        
-        &::before {
-            content: url(../images/p-badge.svg);
-        }
     }
 
 
